@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct BaeksanApp: App {
+struct SwiftulMapAppApp: App {
+    
+    @StateObject private var vm = LocationsViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationsView()
+                .environmentObject(vm)
         }
     }
 }

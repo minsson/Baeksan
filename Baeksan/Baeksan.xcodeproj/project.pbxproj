@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD244FE628D17BB500D5C593 /* MountainMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FE528D17BB500D5C593 /* MountainMarkerView.swift */; };
-		FD244FE828D17BD300D5C593 /* MountainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FE728D17BD300D5C593 /* MountainListView.swift */; };
-		FD244FEA28D17BE000D5C593 /* MountainDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FE928D17BE000D5C593 /* MountainDetailView.swift */; };
 		FD244FEC28D17C1800D5C593 /* MountainDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FEB28D17C1800D5C593 /* MountainDataService.swift */; };
-		FD244FEE28D17C7F00D5C593 /* MountainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FED28D17C7F00D5C593 /* MountainViewModel.swift */; };
-		FD244FF028D18BE600D5C593 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FEF28D18BE600D5C593 /* Decoder.swift */; };
+		FD244FEE28D17C7F00D5C593 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FED28D17C7F00D5C593 /* LocationsViewModel.swift */; };
+		FD244FF228D18FE400D5C593 /* mountainData.json in Resources */ = {isa = PBXBuildFile; fileRef = FD244FF128D18FE400D5C593 /* mountainData.json */; };
+		FD244FF828D1A8E300D5C593 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FF728D1A8E300D5C593 /* LocationView.swift */; };
+		FD244FFA28D1A8FA00D5C593 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FF928D1A8FA00D5C593 /* LocationsListView.swift */; };
+		FD244FFC28D1A90E00D5C593 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FFB28D1A90E00D5C593 /* LocationPreviewView.swift */; };
+		FD244FFE28D1A92200D5C593 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FFD28D1A92200D5C593 /* LocationMapAnnotationView.swift */; };
+		FD24500028D1A93600D5C593 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FFF28D1A93600D5C593 /* LocationDetailView.swift */; };
+		FD24500228D1A96C00D5C593 /* DownloadedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24500128D1A96C00D5C593 /* DownloadedImage.swift */; };
+		FD24500428D1A9E400D5C593 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD24500328D1A9E400D5C593 /* NetworkingManager.swift */; };
 		FD9C39F428D1769A00B97B39 /* BaeksanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C39F328D1769A00B97B39 /* BaeksanApp.swift */; };
 		FD9C39F628D1769A00B97B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C39F528D1769A00B97B39 /* ContentView.swift */; };
 		FD9C39F828D1769B00B97B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C39F728D1769B00B97B39 /* Assets.xcassets */; };
@@ -21,12 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD244FE528D17BB500D5C593 /* MountainMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainMarkerView.swift; sourceTree = "<group>"; };
-		FD244FE728D17BD300D5C593 /* MountainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainListView.swift; sourceTree = "<group>"; };
-		FD244FE928D17BE000D5C593 /* MountainDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDetailView.swift; sourceTree = "<group>"; };
 		FD244FEB28D17C1800D5C593 /* MountainDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDataService.swift; sourceTree = "<group>"; };
-		FD244FED28D17C7F00D5C593 /* MountainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainViewModel.swift; sourceTree = "<group>"; };
-		FD244FEF28D18BE600D5C593 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		FD244FED28D17C7F00D5C593 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		FD244FF128D18FE400D5C593 /* mountainData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mountainData.json; sourceTree = "<group>"; };
+		FD244FF728D1A8E300D5C593 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		FD244FF928D1A8FA00D5C593 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		FD244FFB28D1A90E00D5C593 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		FD244FFD28D1A92200D5C593 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		FD244FFF28D1A93600D5C593 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		FD24500128D1A96C00D5C593 /* DownloadedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedImage.swift; sourceTree = "<group>"; };
+		FD24500328D1A9E400D5C593 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		FD9C39F028D1769A00B97B39 /* Baeksan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baeksan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9C39F328D1769A00B97B39 /* BaeksanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeksanApp.swift; sourceTree = "<group>"; };
 		FD9C39F528D1769A00B97B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				FD9C3A0228D1789600B97B39 /* Mountain.swift */,
+				FD24500128D1A96C00D5C593 /* DownloadedImage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -57,9 +66,11 @@
 		FD244FE228D17B6800D5C593 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FD244FE528D17BB500D5C593 /* MountainMarkerView.swift */,
-				FD244FE728D17BD300D5C593 /* MountainListView.swift */,
-				FD244FE928D17BE000D5C593 /* MountainDetailView.swift */,
+				FD244FF728D1A8E300D5C593 /* LocationView.swift */,
+				FD244FF928D1A8FA00D5C593 /* LocationsListView.swift */,
+				FD244FFB28D1A90E00D5C593 /* LocationPreviewView.swift */,
+				FD244FFD28D1A92200D5C593 /* LocationMapAnnotationView.swift */,
+				FD244FFF28D1A93600D5C593 /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -67,7 +78,7 @@
 		FD244FE328D17B7700D5C593 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				FD244FED28D17C7F00D5C593 /* MountainViewModel.swift */,
+				FD244FED28D17C7F00D5C593 /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -76,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				FD244FEB28D17C1800D5C593 /* MountainDataService.swift */,
-				FD244FEF28D18BE600D5C593 /* Decoder.swift */,
 			);
 			path = DataServices;
 			sourceTree = "<group>";
@@ -103,11 +113,13 @@
 				FD9C39F328D1769A00B97B39 /* BaeksanApp.swift */,
 				FD9C39F528D1769A00B97B39 /* ContentView.swift */,
 				FD9C39F728D1769B00B97B39 /* Assets.xcassets */,
+				FD244FF128D18FE400D5C593 /* mountainData.json */,
 				FD9C39F928D1769B00B97B39 /* Preview Content */,
 				FD244FE428D17B9A00D5C593 /* DataServices */,
 				FD244FDF28D17A7B00D5C593 /* Models */,
 				FD244FE228D17B6800D5C593 /* Views */,
 				FD244FE328D17B7700D5C593 /* ViewModels */,
+				FD24500328D1A9E400D5C593 /* NetworkingManager.swift */,
 			);
 			path = Baeksan;
 			sourceTree = "<group>";
@@ -179,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9C39FB28D1769B00B97B39 /* Preview Assets.xcassets in Resources */,
+				FD244FF228D18FE400D5C593 /* mountainData.json in Resources */,
 				FD9C39F828D1769B00B97B39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,14 +204,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD9C39F628D1769A00B97B39 /* ContentView.swift in Sources */,
-				FD244FEE28D17C7F00D5C593 /* MountainViewModel.swift in Sources */,
+				FD244FEE28D17C7F00D5C593 /* LocationsViewModel.swift in Sources */,
 				FD9C3A0328D1789600B97B39 /* Mountain.swift in Sources */,
-				FD244FF028D18BE600D5C593 /* Decoder.swift in Sources */,
+				FD24500428D1A9E400D5C593 /* NetworkingManager.swift in Sources */,
 				FD9C39F428D1769A00B97B39 /* BaeksanApp.swift in Sources */,
 				FD244FEC28D17C1800D5C593 /* MountainDataService.swift in Sources */,
-				FD244FE828D17BD300D5C593 /* MountainListView.swift in Sources */,
-				FD244FEA28D17BE000D5C593 /* MountainDetailView.swift in Sources */,
-				FD244FE628D17BB500D5C593 /* MountainMarkerView.swift in Sources */,
+				FD244FFA28D1A8FA00D5C593 /* LocationsListView.swift in Sources */,
+				FD24500228D1A96C00D5C593 /* DownloadedImage.swift in Sources */,
+				FD244FFE28D1A92200D5C593 /* LocationMapAnnotationView.swift in Sources */,
+				FD244FF828D1A8E300D5C593 /* LocationView.swift in Sources */,
+				FD24500028D1A93600D5C593 /* LocationDetailView.swift in Sources */,
+				FD244FFC28D1A90E00D5C593 /* LocationPreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +338,7 @@
 		FD9C39FF28D1769B00B97B39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -351,7 +367,7 @@
 		FD9C3A0028D1769B00B97B39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
