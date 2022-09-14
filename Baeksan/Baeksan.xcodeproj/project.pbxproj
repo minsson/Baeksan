@@ -12,6 +12,7 @@
 		FD244FEA28D17BE000D5C593 /* MountainDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FE928D17BE000D5C593 /* MountainDetailView.swift */; };
 		FD244FEC28D17C1800D5C593 /* MountainDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FEB28D17C1800D5C593 /* MountainDataService.swift */; };
 		FD244FEE28D17C7F00D5C593 /* MountainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FED28D17C7F00D5C593 /* MountainViewModel.swift */; };
+		FD244FF028D18BE600D5C593 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD244FEF28D18BE600D5C593 /* Decoder.swift */; };
 		FD9C39F428D1769A00B97B39 /* BaeksanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C39F328D1769A00B97B39 /* BaeksanApp.swift */; };
 		FD9C39F628D1769A00B97B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C39F528D1769A00B97B39 /* ContentView.swift */; };
 		FD9C39F828D1769B00B97B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C39F728D1769B00B97B39 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		FD244FE928D17BE000D5C593 /* MountainDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDetailView.swift; sourceTree = "<group>"; };
 		FD244FEB28D17C1800D5C593 /* MountainDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDataService.swift; sourceTree = "<group>"; };
 		FD244FED28D17C7F00D5C593 /* MountainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainViewModel.swift; sourceTree = "<group>"; };
+		FD244FEF28D18BE600D5C593 /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		FD9C39F028D1769A00B97B39 /* Baeksan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baeksan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9C39F328D1769A00B97B39 /* BaeksanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeksanApp.swift; sourceTree = "<group>"; };
 		FD9C39F528D1769A00B97B39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				FD244FEB28D17C1800D5C593 /* MountainDataService.swift */,
+				FD244FEF28D18BE600D5C593 /* Decoder.swift */,
 			);
 			path = DataServices;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				FD9C39F628D1769A00B97B39 /* ContentView.swift in Sources */,
 				FD244FEE28D17C7F00D5C593 /* MountainViewModel.swift in Sources */,
 				FD9C3A0328D1789600B97B39 /* Mountain.swift in Sources */,
+				FD244FF028D18BE600D5C593 /* Decoder.swift in Sources */,
 				FD9C39F428D1769A00B97B39 /* BaeksanApp.swift in Sources */,
 				FD244FEC28D17C1800D5C593 /* MountainDataService.swift in Sources */,
 				FD244FE828D17BD300D5C593 /* MountainListView.swift in Sources */,
