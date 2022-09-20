@@ -22,6 +22,8 @@
 		FD9C39F828D1769B00B97B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C39F728D1769B00B97B39 /* Assets.xcassets */; };
 		FD9C39FB28D1769B00B97B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9C39FA28D1769B00B97B39 /* Preview Assets.xcassets */; };
 		FD9C3A0328D1789600B97B39 /* Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9C3A0228D1789600B97B39 /* Mountain.swift */; };
+		FDE2D58128D94CE700B00312 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2D58028D94CE700B00312 /* ButtonView.swift */; };
+		FDE2D58528D9555D00B00312 /* VisitedLocationAnnotaionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2D58428D9555D00B00312 /* VisitedLocationAnnotaionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		FD9C39F728D1769B00B97B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD9C39FA28D1769B00B97B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD9C3A0228D1789600B97B39 /* Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain.swift; sourceTree = "<group>"; };
+		FDE2D58028D94CE700B00312 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		FDE2D58428D9555D00B00312 /* VisitedLocationAnnotaionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitedLocationAnnotaionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				FD244FFB28D1A90E00D5C593 /* LocationPreviewView.swift */,
 				FD244FFD28D1A92200D5C593 /* LocationMapAnnotationView.swift */,
 				FD244FFF28D1A93600D5C593 /* LocationDetailView.swift */,
+				FDE2D58028D94CE700B00312 /* ButtonView.swift */,
+				FDE2D58428D9555D00B00312 /* VisitedLocationAnnotaionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,9 +215,11 @@
 				FD24500428D1A9E400D5C593 /* NetworkingManager.swift in Sources */,
 				FD9C39F428D1769A00B97B39 /* BaeksanApp.swift in Sources */,
 				FD244FEC28D17C1800D5C593 /* MountainDataService.swift in Sources */,
+				FDE2D58528D9555D00B00312 /* VisitedLocationAnnotaionView.swift in Sources */,
 				FD244FFA28D1A8FA00D5C593 /* LocationsListView.swift in Sources */,
 				FD24500228D1A96C00D5C593 /* DownloadedImage.swift in Sources */,
 				FD244FFE28D1A92200D5C593 /* LocationMapAnnotationView.swift in Sources */,
+				FDE2D58128D94CE700B00312 /* ButtonView.swift in Sources */,
 				FD244FF828D1A8E300D5C593 /* LocationView.swift in Sources */,
 				FD24500028D1A93600D5C593 /* LocationDetailView.swift in Sources */,
 				FD244FFC28D1A90E00D5C593 /* LocationPreviewView.swift in Sources */,

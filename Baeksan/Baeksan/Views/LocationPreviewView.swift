@@ -104,10 +104,16 @@ extension LocationPreviewView {
         Button {
             vm.updateLocations()
         } label: {
-            Text(vm.mapLocation.isVisited ? "가본곳!" : "안가본 곳")
-                .font(.headline)
-                .multilineTextAlignment(.trailing)
-                .frame(width:125, height: 35)
+            if vm.mapLocation.isVisited == true {
+                ButtonView(vm: vm, text: "등반완료", shouldFillBackground: true) {
+                    vm.updateLocations()
+                }
+
+            } else {
+                ButtonView(vm: vm, text: "등반완료", shouldFillBackground: false) {
+                    vm.updateLocations()
+                }
+            }
         }
     }
 }
