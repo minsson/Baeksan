@@ -68,6 +68,20 @@ class LocationsViewModel: ObservableObject {
         }
     }
     
+    func updateLocations(of location: Location) {
+        if location.isVisited == true {
+            if let idx = locations.firstIndex(of: location) {
+                let newLocation = Location(title: location.title, subtitle: location.subtitle, height: location.height, address: location.address, reason: location.reason, overview: location.overview, description: location.description, transportation: location.transportation, coordinates: location.coordinates, isVisited: false)
+                locations[idx] = newLocation
+            }
+        } else {
+            if let idx = locations.firstIndex(of: location) {
+                let newLocation = Location(title: location.title, subtitle: location.subtitle, height: location.height, address: location.address, reason: location.reason, overview: location.overview, description: location.description, transportation: location.transportation, coordinates: location.coordinates, isVisited: true)
+                locations[idx] = newLocation
+            }
+        }
+    }
+    
     func toggleLocationsList() {
         withAnimation(.easeInOut) {
             showLocationsList.toggle()

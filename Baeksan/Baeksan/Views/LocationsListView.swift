@@ -45,6 +45,11 @@ extension LocationsListView {
                     .font(.subheadline)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
+            Spacer()
+            Image(systemName: location.isVisited ? "checkmark.circle" : "circle")
+                .onTapGesture {
+                    vm.updateLocations(of: location)
+                }
         }
     }
 }
