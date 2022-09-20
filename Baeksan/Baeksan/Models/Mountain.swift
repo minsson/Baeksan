@@ -39,6 +39,7 @@ struct Location: Identifiable, Equatable {
     let transportation: String // 교통정보
     
     let coordinates: CLLocationCoordinate2D
+    var isVisited: Bool = false
 
     //idenfiable
     var id: String {
@@ -51,5 +52,9 @@ struct Location: Identifiable, Equatable {
     //equatable
     static func == (lhs: Location, rhs: Location) -> Bool {
         lhs.id == rhs.id
+    }
+    
+    mutating func visited() {
+        isVisited.toggle()
     }
 }

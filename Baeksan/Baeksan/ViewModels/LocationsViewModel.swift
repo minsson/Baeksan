@@ -54,6 +54,20 @@ class LocationsViewModel: ObservableObject {
         }
     }
     
+    func updateLocations() {
+        if mapLocation.isVisited == true {
+            if let idx = locations.firstIndex(of: mapLocation) {
+                mapLocation = Location(title: mapLocation.title, subtitle: mapLocation.subtitle, height: mapLocation.height, address: mapLocation.address, reason: mapLocation.reason, overview: mapLocation.overview, description: mapLocation.description, transportation: mapLocation.transportation, coordinates: mapLocation.coordinates, isVisited: false)
+                locations[idx] = mapLocation
+            }
+        } else {
+            if let idx = locations.firstIndex(of: mapLocation) {
+                mapLocation = Location(title: mapLocation.title, subtitle: mapLocation.subtitle, height: mapLocation.height, address: mapLocation.address, reason: mapLocation.reason, overview: mapLocation.overview, description: mapLocation.description, transportation: mapLocation.transportation, coordinates: mapLocation.coordinates, isVisited: true)
+                locations[idx] = mapLocation
+            }
+        }
+    }
+    
     func toggleLocationsList() {
         withAnimation(.easeInOut) {
             showLocationsList.toggle()

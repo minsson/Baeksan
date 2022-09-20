@@ -55,7 +55,7 @@ extension LocationsView {
                     .frame(maxWidth: .infinity)
                     .animation(.none, value: vm.mapLocation)
                     .overlay(alignment: .leading) {
-                        Image(systemName: "arrow.down")
+                        Image(systemName: "arrow.down.circle")
                             .font(.headline)
                             .foregroundColor(.primary)
                             .padding()

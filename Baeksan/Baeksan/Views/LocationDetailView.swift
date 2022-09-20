@@ -81,10 +81,6 @@ extension LocationDetailView {
             Image(systemName: "xmark")
                 .font(.headline)
                 .padding(16)
-                .foregroundColor(.primary)
-                .background(.thickMaterial)
-                .cornerRadius(10)
-                .shadow(radius: 4)
                 .padding()
         }
 

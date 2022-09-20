@@ -26,6 +26,7 @@ struct LocationPreviewView: View {
                 VStack(spacing: 20) {
                     learnMoreButton
                     nextButton
+                    visitedButton
                 }
                 
             }
@@ -97,6 +98,17 @@ extension LocationPreviewView {
                 .frame(width:125, height: 35)
         }
         .buttonStyle(.bordered)
+    }
+    
+    private var visitedButton: some View {
+        Button {
+            vm.updateLocations()
+        } label: {
+            Text(vm.mapLocation.isVisited ? "가본곳!" : "안가본 곳")
+                .font(.headline)
+                .multilineTextAlignment(.trailing)
+                .frame(width:125, height: 35)
+        }
     }
 }
 
