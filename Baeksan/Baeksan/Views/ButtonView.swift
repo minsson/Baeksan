@@ -24,8 +24,11 @@ struct ButtonView: View {
                 Text(text)
                     .font(.headline)
                     .frame(width: 125, height: 35)
+                    .foregroundColor(.white)
             }
-            .buttonStyle(.borderedProminent)
+            .frame(width: 148, height: 49)
+            .background(Color("CompleteButtonColor"))
+            .cornerRadius(10)
         } else {
             Button {
                 action()
@@ -38,10 +41,6 @@ struct ButtonView: View {
         }
     }
 }
-
-
-
-
 
 struct ButtonView_Previews: PreviewProvider {
     

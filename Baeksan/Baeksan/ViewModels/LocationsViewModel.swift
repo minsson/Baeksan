@@ -133,7 +133,7 @@ class LocationsViewModel: ObservableObject {
             .sink(receiveCompletion: NetworkingManager.handleCompletion, receiveValue: { [weak self] returnedData in
 //                print(returnedData)
                 self?.locationImages = returnedData.items ?? []
-                print(self?.locationImages)
+                
                 self?.imageSubscription?.cancel()
 //                print(self?.locationImages)
             })
